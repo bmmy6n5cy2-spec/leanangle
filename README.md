@@ -1,34 +1,27 @@
-# LeanAngle V3
+# LeanAngle V4
 
 ## Nouveautés
-- Sessions de roulage avec démarrage et arrêt.
-- Chronomètre de session.
-- Max gauche / max droite.
-- Pic absolu de la session.
-- Écran récapitulatif après chaque sortie.
-- Historique local des 10 dernières sessions.
-- Données stockées uniquement sur le téléphone via localStorage.
-- Wake Lock pour garder l'écran allumé.
-- Tentative de plein écran pendant la session.
-- Calibration robuste sur plusieurs échantillons.
-- Interface portrait et paysage.
+- Onglet Compteur + onglet Carte.
+- Carte OpenStreetMap via Leaflet.
+- Suivi GPS pendant la session.
+- Tracé du parcours.
+- Distance GPS.
+- Vitesse GPS.
+- Précision GPS.
+- Position des records gauche et droite sur la carte.
+- Résumé de fin de session.
+- Historique local des 10 dernières sorties.
 
-## Mise à jour GitHub Pages
-Remplace les anciens fichiers du dépôt par :
+## Publication GitHub Pages
+Remplace les fichiers actuels du dépôt par :
 - index.html
 - manifest.webmanifest
 - README.md
 
-Puis effectue un commit. GitHub Pages republiera automatiquement le site.
-
-## Utilisation recommandée
-1. Fixer le téléphone au Quad Lock.
-2. Ouvrir le site en HTTPS.
-3. Activer les capteurs.
-4. Moto droite : calibrer.
-5. Démarrer une session.
-6. À l'arrêt, terminer la session pour afficher le résumé.
+Puis commit sur `main`. GitHub Pages republiera la V4 automatiquement.
 
 ## Important
-La mesure reste indicative. Elle dépend du téléphone, du navigateur, du montage et des vibrations.
-Ne manipule jamais le téléphone en roulant.
+La carte nécessite une connexion Internet.
+Les tuiles OpenStreetMap sont destinées à un usage interactif normal, pas au téléchargement hors-ligne massif.
+Le GPS et l'angle sont des estimations dépendant du téléphone, du navigateur et du montage.
+Ne manipule jamais le téléphone pendant la conduite.
