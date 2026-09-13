@@ -1,10 +1,10 @@
 {
-  "name": "LeanAngle Moto",
+  "name": "LeanAngle V3",
   "short_name": "LeanAngle",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#08090b",
-  "theme_color": "#0a0b0d",
+  "theme_color": "#08090b",
   "orientation": "any",
-  "description": "Indicateur d'inclinaison moto utilisant les capteurs du téléphone."
+  "description": "Mesure l'angle d'inclinaison moto, les maxima et l'historique des sessions."
 }

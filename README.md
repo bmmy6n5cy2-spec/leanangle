@@ -1,17 +1,34 @@
-# LeanAngle Moto
+# LeanAngle V3
 
-Application web mobile pour afficher l'angle d'inclinaison d'une moto à partir des capteurs d'orientation du téléphone.
+## Nouveautés
+- Sessions de roulage avec démarrage et arrêt.
+- Chronomètre de session.
+- Max gauche / max droite.
+- Pic absolu de la session.
+- Écran récapitulatif après chaque sortie.
+- Historique local des 10 dernières sessions.
+- Données stockées uniquement sur le téléphone via localStorage.
+- Wake Lock pour garder l'écran allumé.
+- Tentative de plein écran pendant la session.
+- Calibration robuste sur plusieurs échantillons.
+- Interface portrait et paysage.
 
-## Utilisation
-1. Héberger le dossier sur un serveur HTTPS (GitHub Pages, Netlify, Vercel, etc.).
-2. Ouvrir la page depuis Safari sur iPhone ou Chrome sur Android.
-3. Fixer le téléphone au Quad Lock dans sa position définitive.
-4. Moto droite et immobile, appuyer sur "Activer les capteurs".
-5. Utiliser "Calibrer le zéro" si nécessaire.
-6. Les maxima gauche/droite restent affichés jusqu'à leur remise à zéro.
+## Mise à jour GitHub Pages
+Remplace les anciens fichiers du dépôt par :
+- index.html
+- manifest.webmanifest
+- README.md
+
+Puis effectue un commit. GitHub Pages republiera automatiquement le site.
+
+## Utilisation recommandée
+1. Fixer le téléphone au Quad Lock.
+2. Ouvrir le site en HTTPS.
+3. Activer les capteurs.
+4. Moto droite : calibrer.
+5. Démarrer une session.
+6. À l'arrêt, terminer la session pour afficher le résumé.
 
 ## Important
-- L'accès aux capteurs et le Wake Lock nécessitent un contexte HTTPS sur les navigateurs mobiles modernes.
-- Sur iPhone/iPad, l'autorisation des capteurs doit être déclenchée par une action utilisateur.
-- La mesure est indicative : vibrations, montage, comportement du navigateur et capteurs du téléphone influencent la précision.
-- Ne pas manipuler le téléphone pendant la conduite.
+La mesure reste indicative. Elle dépend du téléphone, du navigateur, du montage et des vibrations.
+Ne manipule jamais le téléphone en roulant.
